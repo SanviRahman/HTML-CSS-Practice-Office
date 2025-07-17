@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            grid-gap: 1em;
+        }
+        .container1 {
+            background-color: bisque;
+            padding: 5px;
+        }
+        .container1:nth-child(odd){
+            background-color: brown;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container1">
+            <h1>Box 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fuga quae cumque architecto facilis! Nemo
+            ea aperiam totam quos velit?</p>
+        </div>
+        <div class="container1">
+            <h1>Box 2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi atque optio corrupti vitae aperiam nemo
+            qui dolorum voluptas beatae ullam?</p>
+        </div>
+         <div class="container1">
+            <h1>Box 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi atque optio corrupti vitae aperiam nemo
+            qui dolorum voluptas beatae ullam?</p>
+        </div>
+         <div class="container1">
+            <h1>Box 4</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi atque optio corrupti vitae aperiam nemo
+            qui dolorum voluptas beatae ullam?</p>
+        </div>
+         <div class="container1">
+            <h1>Box 5</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi atque optio corrupti vitae aperiam nemo
+            qui dolorum voluptas beatae ullam?</p>
+        </div>
+         <div class="container1">
+            <h1>Box 6</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi atque optio corrupti vitae aperiam nemo
+            qui dolorum voluptas beatae ullam?</p>
+        </div>
+    </div>
+</body>
+
+</html>
